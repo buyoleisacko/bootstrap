@@ -1,0 +1,174 @@
+body{
+background-color:rgb(208,208,223);
+}
+.container{
+background-color:rgb(208,208,223);
+width: 100%;
+height: 100%;
+
+}
+
+.buyole{
+background-color:#022D36;
+min-height: 80px;
+/*min-width: 1000px;*/
+text-align: center;
+color: white;
+
+
+}
+.site{
+background-color:#2C3E4C;
+min-height: 130px;
+/*min-width: 1000px;*/
+
+}
+.site h2{
+color: white;
+font-size: 40px;
+text-align: center;
+}
+.site h3{
+color:yellow;
+font-size: 15px;
+letter-spacing: 11px;
+text-align: center;
+}
+.site h4{
+color:yellow;
+font-size: 15px;
+letter-spacing: 11px;
+text-align: center;
+
+}
+.page{
+background-color: rgb(253,214,51);
+height:130px;
+width: 935px;
+margin-left: 90px;
+margin-right: 90px;
+
+
+
+
+}
+ h5{
+color: #022D36;
+font-size: 40px;
+font-weight: 5px;
+margin: 20px;
+text-align: left;
+padding:30px;
+}
+
+.content{
+background-color: white;
+height: 450px;
+width: 935px;
+margin-left: 90px;
+margin-right: 100px;
+
+
+}
+.content p{
+color: black;
+padding-left: 490px;
+position: relative;
+bottom: 400px;
+
+
+}
+.img{
+padding-top: 20px;
+padding-left: 20px;
+
+}
+.parent{
+background-color:rgb(253,214,51)  ;
+margin-left: 89px;
+margin-top: 30px;
+}
+.parent p{
+color: #022D36;
+text-align: left;
+padding-top: 40px;
+font-size: 40px;
+
+}
+.child{
+background-color: white;
+margin-left: 90px;
+position: relative;
+bottom: 20px;
+height: 280px;
+
+}
+.child  ul li{
+color: black;
+
+}
+
+.goal{
+background-color: rgb(253,214,51);
+margin-top: 30px;
+margin-right: 82px;
+}
+.goal {
+color: #022D36;
+text-align: left;
+padding-top: 40px;
+font-size: 40px;
+}
+.text{
+background-color: white;
+margin-right: 82px;
+position: relative;
+bottom: 20px;
+height: 280px;
+
+
+}
+.text ul li{
+color: black;
+
+}
+table{
+margin-left: 90px;
+width: 940px;
+
+}
+th{
+background-color: rgb(253,214,51);
+height: 80px;
+
+
+}
+tr{
+border-bottom: 1px solid #dddddd ;
+background-color: white;
+
+}
+td, th{
+padding: 5px;
+border: 1px solid #dddddd;
+    text-align: center;
+
+}
+.footer{
+background-color: #2C3E4C;
+height: 250px;
+
+position: relative;
+top: 30px;
+}
+.footer p{
+color: yellow;
+font-size: 17px;
+text-align: left;
+padding: 10px;
+}
+@media screen and (max-width: 800px){
+.left , .main, .right{
+width: 100%;
+}
+}
